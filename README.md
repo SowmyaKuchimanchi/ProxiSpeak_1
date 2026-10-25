@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ProxiSpeak — Geospatial Proximity Audio Ecosystem
 
 ProxiSpeak is a 2D virtual office where distributed teams walk around an interactive HTML5 Canvas workspace and talk naturally to nearby colleagues. Voices dynamically crossfade and pan across left/right stereo channels based on Euclidean avatar distance.
@@ -98,3 +99,6 @@ In accordance with Prompts 4, 5, and 7 (*"Clearly distinguish tests actually per
 3. **Public STUN Only (No TURN Relay Configured)**: `webrtc.js` uses public Google STUN servers (`stun:stun.l.google.com:19302`). This works on `localhost` and standard home/office NATs, but restrictive symmetric enterprise NATs/firewalls require a TURN relay server in production.
 4. **Proximity P2P Mesh vs. SFU for 50+ Users**: The client opens peer-to-peer WebRTC connections only for colleagues within the 100px earshot radius (118px exit hysteresis). While this scales well when 50+ users are spread across different office zones, if all 50+ users crowd into the exact same 100px circle simultaneously, full-mesh P2P encoding would become CPU/bandwidth-intensive and would require migrating to a Selective Forwarding Unit (SFU) media server.
 5. **In-Memory Signaling Server (`backend/server.js`)**: The included `backend/server.js` holds room state in memory (`new Map()`) for zero-setup two-browser testing rather than requiring a local MongoDB `$near` / Redis Pub/Sub cluster.
+=======
+# ProxiSpeak_1
+>>>>>>> 6a607f043af036c4a6ee6b4de7fb4c078c839281
