@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ProxiSpeak — Geospatial Proximity Audio Ecosystem
 
 ProxiSpeak is a 2D virtual office where distributed teams walk around an interactive HTML5 Canvas workspace and talk naturally to nearby colleagues. Voices dynamically crossfade and pan across left/right stereo channels based on Euclidean avatar distance.
